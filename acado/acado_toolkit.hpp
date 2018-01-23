@@ -32,7 +32,7 @@
 
 
 
-#include <acado_optimal_control.hpp>
+#include <acado/acado_optimal_control.hpp>
 
 #include <acado/curve/curve.hpp>
 #include <acado/controller/controller.hpp>

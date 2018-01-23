@@ -32,7 +32,7 @@
 
 
 
-#include <acado_integrators.hpp>
+#include <acado/acado_integrators.hpp>
 
 #include <acado/dynamic_system/dynamic_system.hpp>
 #include <acado/dynamic_discretization/dynamic_discretization.hpp>

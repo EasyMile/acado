@@ -252,16 +252,6 @@ INSTALL(
 )
 
 #
-# Install Eigen3
-#
-INSTALL(
-	DIRECTORY
-		external_packages/eigen3
-	DESTINATION
-		${INSTALL_INCLUDE_DIR}/external_packages
-)
-
-#
 # Install qpOASES embedded
 #
 INSTALL(

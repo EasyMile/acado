@@ -477,6 +477,11 @@ struct traits< ACADO::GenericMatrix< T > >
 	: traits<Matrix<T, Dynamic, Dynamic, Eigen::RowMajor | Eigen::AutoAlign> >
 {};
 
+template <typename T>
+struct evaluator< ACADO::GenericMatrix< T >>
+  : evaluator<Matrix<T, Dynamic, Dynamic, Eigen::RowMajor | Eigen::AutoAlign> >
+{};
+
 } // namespace internal
 } // namespace Eigen
 /** \endinternal */

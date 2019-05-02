@@ -40,6 +40,7 @@
 #include <cstdlib>
 #include <cstring>
 
+#include <algorithm>
 #include <string>
 #include <sstream>
 
